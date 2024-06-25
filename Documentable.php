@@ -12,7 +12,7 @@ use Phppride\Documentor\Contracts\Common\Contentable;
 interface Documentable extends Contentable
 {
     /**
-     * @return iterable     List of contained nodes
+     * @return array    List of contained nodes
      */
-    public function nodes(): \Iterable;
+    public function nodes(): array;
 }

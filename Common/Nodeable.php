@@ -15,7 +15,7 @@ interface Nodeable
     public function parent(): mixed;
 
     /**
-     * @return array        List of child elements
+     * @return array|null   List of child elements or null
      */
-    public function children(): array;
+    public function children(): ?array;
 }
