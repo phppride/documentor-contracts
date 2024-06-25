@@ -12,7 +12,7 @@ use Phppride\Documentor\Contracts\Common\Builderable;
 interface DocumentBuilder extends Builderable
 {
     /**
-     * @return Documentable     Object of finished document for further manipulations (saving, editing, etc.)
+     * @return Document     Object of finished document for further manipulations (saving, editing, etc.)
      */
-    public function build(): Documentable;
+    public function build(): Document;
 }

@@ -18,7 +18,7 @@ interface Node extends Contentable, Nodeable
     public function offset(): int;
 
     /**
-     * @return Node|Documentable    Parent element
+     * @return Node|Document    Parent element
      */
-    public function parent(): Node|Documentable;
+    public function parent(): Node|Document;
 }
