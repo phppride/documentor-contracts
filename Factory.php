@@ -6,5 +6,5 @@ namespace Phppride\Documentor\Contracts;
 
 interface Factory
 {
-    public function create(Tokenable $token): Node;
+    public function create(Token $token): Node;
 }
