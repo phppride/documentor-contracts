@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Phppride\Documentor\Contracts;
 
+use Phppride\Documentor\Contracts\Common\Contentable;
+
 /**
  * Abstract node interface
  */
