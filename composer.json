@@ -1,0 +1,21 @@
+{
+    "name": "phppride/documentor-contracts",
+    "description": "A set of documentor abstractions",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Phppride\\Documentor\\Contracts\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Mezinov",
+            "email": "ivanmezinov@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.1"
+    }
+}
