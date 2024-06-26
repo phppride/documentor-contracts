@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Phppride\Documentor\Contracts;
+namespace Phppride\Documentor\Contracts\Common;
 
 /**
- * An abstraction containing content
+ * Common interface of objects with the content
  */
 interface Contentable
 {
     /**
-     * @return string   Containing content
+     * @return string   Content of object
      */
     public function content(): string;
 
